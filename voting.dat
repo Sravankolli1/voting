@@ -1,0 +1,41 @@
+Hyderabad/ABCDE
+Karimnagar/FGHIJ
+Warangal/KLMNO
+RangaReddy/PQRST
+Khammam/UVWXY
+//
+Hyderabad
+1 A B C
+2 B C A
+3 B A C
+4 B A C
+5 C B A
+//
+Karimnagar
+6  F G H
+7  G H I
+8  H I J
+9  I B F
+10 J F G
+//
+Warangal
+21 K L M
+22 L M K
+23 M K A
+24 L K M
+25 M I E
+//
+RangaReddy
+31 P Q S
+32 R S T
+33 S T P
+34 T P R
+35 Q S P
+//
+Khammam
+41 U V W
+42 V W X
+43 W X Y
+44 X M Z
+45 Y X W
+&&
