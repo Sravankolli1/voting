@@ -48,16 +48,16 @@ public class FC {
 							//is invalid vote?
 							Integer voterId = Integer.valueOf(vt[0]);
 							if(voters.contains(voterId)) {
-								//What to write if invalid? check phone
+								//if invalid
 								currentRegion.invalid+=1;
 								
 							}
 							else if(vt.length>4 || vt.length<2) {
-								//What to write if invalid? check phone
+								//if invalid
 								currentRegion.invalid+=1;
 							}
 							else if(!FC.allKeysPresent(currentRegion,slicedArray)) {
-								//What to write if invalid? check phone
+								//invalid
 								currentRegion.invalid+=1;
 							}
 							else {
@@ -79,7 +79,6 @@ public class FC {
 							
 						}
 						else {
-							//This may be  city name check and write remaining operations on phone
 							//System.out.println(initial+"done");
 							for(Region regn:regions) {
 								if(regn.name.equals(initial)) {
@@ -91,7 +90,7 @@ public class FC {
 				}
 				else if(initial.contains("/")) {
 						
-					//System.out.println("hi");
+					
 						String[] tmp = initial.split("/");
 						char[] cnts = tmp[1].toCharArray();
 						//System.out.println(cnts);
